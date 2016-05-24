@@ -54,7 +54,7 @@ header {
 
 .main {
     height: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
     h2 {
         text-align: center;
         color: $color3;
@@ -93,20 +93,5 @@ header {
     p, li {
         color: $color3;
         font-size: 1.1em;
-    }
-}
-
-.footer {
-    height: 30px;
-    width: 100%;
-    @include background-image(linear-gradient(to bottom, $color1, $color2));
-    display: flex;
-    justify-content: center;
-    p {
-        display: inline;
-        color: $white;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: .5%;
     }
 }
