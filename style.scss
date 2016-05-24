@@ -43,11 +43,12 @@ header {
         position: absolute;
         bottom: 0.1rem;
         
-        p {
+        p, a {
             display: inline;
             color: $white;
             margin-left: 5%;
             margin-right: 5%;
+            margin-top: 1%;
         }
     }
 }
@@ -74,8 +75,11 @@ header {
         text-decoration: none;
         @include background-image(linear-gradient(to bottom, $color1, $color2));
         @include border-top-radius(10px);
-        @include border-bottom-radius(10px);
-        
+        @include border-bottom-radius(10px);  
+    }
+    a:hover {
+        @include background-image(linear-gradient(to bottom, $color2, $color1));
+//        padding: 5px 8px;
     }
 }
 
