@@ -97,7 +97,7 @@ header {
 }
 
 .footer {
-    height: 50px;
+    height: 30px;
     width: 100%;
     @include background-image(linear-gradient(to bottom, $color1, $color2));
     display: flex;
@@ -107,5 +107,6 @@ header {
         color: $white;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: .5%;
     }
 }

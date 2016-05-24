@@ -85,7 +85,7 @@ header {
     font-size: 1.1em; }
 
 .footer {
-  height: 50px;
+  height: 30px;
   width: 100%;
   background-image: -webkit-linear-gradient( top , #0176b5, #00466c);
   background-image: linear-gradient(to bottom, #0176b5, #00466c);
@@ -95,4 +95,5 @@ header {
     display: inline;
     color: white;
     margin-left: 5%;
-    margin-right: 5%; }
+    margin-right: 5%;
+    margin-top: .5%; }
