@@ -11,8 +11,17 @@ html, body {
   font-family: Helvetica Neue, Raleway, sans-serif;
   position: relative; }
 
-.columns {
-  margin: 0 18%; }
+@media (min-width: 1200px) {
+  .columns {
+    margin: 0 18%; } }
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .columns {
+    margin: 0 8%; } }
+
+@media (max-width: 899px) {
+  .columns {
+    margin: 0 1%; } }
 
 header {
   width: 100%;
