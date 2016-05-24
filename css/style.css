@@ -44,7 +44,7 @@ header {
 
 .main {
   height: 100%;
-  margin-bottom: 200px; }
+  margin-bottom: 10px; }
   .main h2 {
     text-align: center;
     color: #494949;
@@ -83,17 +83,3 @@ header {
   .project-item p, .project-item li {
     color: #494949;
     font-size: 1.1em; }
-
-.footer {
-  height: 30px;
-  width: 100%;
-  background-image: -webkit-linear-gradient( top , #0176b5, #00466c);
-  background-image: linear-gradient(to bottom, #0176b5, #00466c);
-  display: flex;
-  justify-content: center; }
-  .footer p {
-    display: inline;
-    color: white;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: .5%; }
