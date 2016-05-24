@@ -48,16 +48,16 @@ header {
 
 //Each project is divided into divs with the 'project-name' class
 .project-item {
-    border-bottom: 1px solid $color1;
+    border-top: 1px solid $color1;
     h3, h4{
         color: $color1;
     }
     
     h3 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     h4 {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     
     a {
@@ -70,5 +70,6 @@ header {
     
     p, li {
         color: $color3;
+        font-size: 1.1em;
     }
 }

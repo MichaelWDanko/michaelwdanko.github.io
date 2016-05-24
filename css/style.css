@@ -39,16 +39,17 @@ header {
     font-weight: 300; }
 
 .project-item {
-  border-bottom: 1px solid #0176b5; }
+  border-top: 1px solid #0176b5; }
   .project-item h3, .project-item h4 {
     color: #0176b5; }
   .project-item h3 {
-    font-size: 1.6rem; }
+    font-size: 1.8rem; }
   .project-item h4 {
-    font-size: 1rem; }
+    font-size: 1.4rem; }
   .project-item a {
     color: #0176b5; }
   .project-item a:hover {
     color: #2cddf1; }
   .project-item p, .project-item li {
-    color: #494949; }
+    color: #494949;
+    font-size: 1.1em; }
