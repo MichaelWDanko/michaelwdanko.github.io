@@ -3,9 +3,9 @@
 
 $white: white;
 $color1: #0176b5;
-//$color2: #2cddf1;
 $color2: #00466c;
 $color3: #494949;
+$linkcolor: #0843aa;
 
 $font1: Helvetica Neue, Raleway, sans-serif; 
 
@@ -27,11 +27,23 @@ html, body {
     .columns {
         margin: 0 8%;
     }
+    .intro {
+        font-size: 1.40em
+    }
+    .invite {
+        font-size: 1.09em
+    }
 }
 //For smaller mobile screens
 @media (max-width:899px) {
     .columns {
         margin: 0 1%;
+    }
+    .intro {
+        font-size: 1.40em
+    }
+    .invite {
+        font-size: 1.09em
     }
 }
 
@@ -75,7 +87,7 @@ header {
 .main {
     height: 100%;
     margin-bottom: 10px;
-    h2 {
+ .intro, .invite {
         text-align: center;
         color: $color3;
         font-family: $font1;
@@ -86,7 +98,7 @@ header {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-bottom: 10px;
     a {
         padding: 5px;
         margin: 0 5%;
@@ -94,7 +106,8 @@ header {
         text-decoration: none;
         @include background-image(linear-gradient(to bottom, $color1, $color2));
         @include border-top-radius(10px);
-        @include border-bottom-radius(10px);  
+        @include border-bottom-radius(10px);
+        @include transition(all, 2.0s );
     }
     a:hover {
         @include background-image(linear-gradient(to bottom, $color2, $color1));
@@ -110,8 +123,14 @@ header {
     h3 {font-size: 1.8rem;}
     h4 {font-size: 1.4rem;}
     
-    a {color: $color1;}
-    a:hover {color: $color2;}
+    a {
+        color: $color1;
+        font-size: 1.5em;
+        @include transition(all, .5s );
+    }
+    a:hover {
+        color: $linkcolor;
+    }
     
     p, li {
         color: $color3;

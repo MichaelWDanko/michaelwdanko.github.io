@@ -17,11 +17,19 @@ html, body {
 
 @media (min-width: 900px) and (max-width: 1200px) {
   .columns {
-    margin: 0 8%; } }
+    margin: 0 8%; }
+  .intro {
+    font-size: 1.40em; }
+  .invite {
+    font-size: 1.09em; } }
 
 @media (max-width: 899px) {
   .columns {
-    margin: 0 1%; } }
+    margin: 0 1%; }
+  .intro {
+    font-size: 1.40em; }
+  .invite {
+    font-size: 1.09em; } }
 
 header {
   width: 100%;
@@ -58,7 +66,7 @@ header {
 .main {
   height: 100%;
   margin-bottom: 10px; }
-  .main h2 {
+  .main .intro, .main .invite {
     text-align: center;
     color: #494949;
     font-family: Helvetica Neue, Raleway, sans-serif;
@@ -68,7 +76,7 @@ header {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: 10px; }
+  margin-bottom: 10px; }
   .nav a {
     padding: 5px;
     margin: 0 5%;
@@ -79,7 +87,10 @@ header {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; }
+    border-bottom-right-radius: 10px;
+    -webkit-transition: all, 2s;
+    -moz-transition: all, 2s;
+    transition: all, 2s; }
   .nav a:hover {
     background-image: -webkit-linear-gradient( top , #00466c, #0176b5);
     background-image: linear-gradient(to bottom, #00466c, #0176b5); }
@@ -93,9 +104,13 @@ header {
   .project-item h4 {
     font-size: 1.4rem; }
   .project-item a {
-    color: #0176b5; }
+    color: #0176b5;
+    font-size: 1.5em;
+    -webkit-transition: all, 0.5s;
+    -moz-transition: all, 0.5s;
+    transition: all, 0.5s; }
   .project-item a:hover {
-    color: #00466c; }
+    color: #0843aa; }
   .project-item p, .project-item li {
     color: #494949;
     font-size: 1.1em; }
