@@ -27,11 +27,23 @@ html, body {
     .columns {
         margin: 0 8%;
     }
+    .intro {
+        font-size: 1.40em
+    }
+    .invite {
+        font-size: 1.09em
+    }
 }
 //For smaller mobile screens
 @media (max-width:899px) {
     .columns {
         margin: 0 1%;
+    }
+    .intro {
+        font-size: 1.40em
+    }
+    .invite {
+        font-size: 1.09em
     }
 }
 
@@ -75,7 +87,7 @@ header {
 .main {
     height: 100%;
     margin-bottom: 10px;
-    h2 {
+ .intro, .invite {
         text-align: center;
         color: $color3;
         font-family: $font1;
@@ -86,7 +98,7 @@ header {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-bottom: 10px;
     a {
         padding: 5px;
         margin: 0 5%;
