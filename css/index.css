@@ -62,8 +62,9 @@ header {
 
 .main {
   height: 100%;
-  margin-bottom: 10px; }
-  .main .intro, .main .invite {
+  margin-bottom: 10px;
+  position: absolute; }
+  .main .intro {
     text-align: center;
     color: #494949;
     font-family: Helvetica Neue, Raleway, sans-serif;
